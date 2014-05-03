@@ -63,27 +63,27 @@ end
 
 dofile(homedecor.modpath.."/misc_nodes.lua")					-- the catch-all for all misc nodes
 dofile(homedecor.modpath.."/tables.lua")
-dofile(homedecor.modpath.."/electronics.lua")
+-- dofile(homedecor.modpath.."/electronics.lua")
 dofile(homedecor.modpath.."/shutters.lua")
-dofile(homedecor.modpath.."/shingles.lua")
-dofile(homedecor.modpath.."/slopes.lua")
+-- dofile(homedecor.modpath.."/shingles.lua")
+-- dofile(homedecor.modpath.."/slopes.lua")
 
 dofile(homedecor.modpath.."/door_models.lua")
 dofile(homedecor.modpath.."/doors_and_gates.lua")
 
-dofile(homedecor.modpath.."/fences.lua")
+-- dofile(homedecor.modpath.."/fences.lua")
 
-dofile(homedecor.modpath.."/lighting.lua")
+-- dofile(homedecor.modpath.."/lighting.lua")
 dofile(homedecor.modpath.."/kitchen_cabinet.lua")
-dofile(homedecor.modpath.."/refrigerator.lua")
+-- dofile(homedecor.modpath.."/refrigerator.lua")
 dofile(homedecor.modpath.."/furnaces.lua")
 dofile(homedecor.modpath.."/nightstands.lua")
 
 dofile(homedecor.modpath.."/crafts.lua")
 
 dofile(homedecor.modpath.."/furniture.lua")
-dofile(homedecor.modpath.."/furniture_medieval.lua")
-dofile(homedecor.modpath.."/furniture_bathroom.lua")
+--dofile(homedecor.modpath.."/furniture_medieval.lua")
+--dofile(homedecor.modpath.."/furniture_bathroom.lua")
 dofile(homedecor.modpath.."/furniture_recipes.lua")
 
 dofile(homedecor.modpath.."/locked.lua")

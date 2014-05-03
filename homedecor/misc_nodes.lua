@@ -2,24 +2,24 @@
 
 local S = homedecor.gettext
 
-minetest.register_node('homedecor:ceiling_paint', {
-	description = S("Textured Ceiling Paint"),
-	drawtype = 'signlike',
-	tiles = { 'homedecor_ceiling_paint.png' },
-	inventory_image = 'homedecor_ceiling_paint_roller.png',
-	wield_image = 'homedecor_ceiling_paint_roller.png',
-	sunlight_propagates = true,
-	paramtype = 'light',
-	walkable = false,
-	groups = { snappy = 3 },
-	sounds = default.node_sound_leaves_defaults(),
-        selection_box = {
-			type = "wallmounted",
+-- minetest.register_node('homedecor:ceiling_paint', {
+--	description = S("Textured Ceiling Paint"),
+--	drawtype = 'signlike',
+--	tiles = { 'homedecor_ceiling_paint.png' },
+--	inventory_image = 'homedecor_ceiling_paint_roller.png',
+--	wield_image = 'homedecor_ceiling_paint_roller.png',
+--	sunlight_propagates = true,
+--	paramtype = 'light',
+--	walkable = false,
+--	groups = { snappy = 3 },
+--	sounds = default.node_sound_leaves_defaults(),
+--      selection_box = {
+--			type = "wallmounted",
                          --wall_top = <default>
                          --wall_bottom = <default>
                          --wall_side = <default>
-                        },
-})
+--                        },
+--})
 
 minetest.register_node('homedecor:ceiling_tile', {
 	description = S("Drop-Ceiling Tile"),
